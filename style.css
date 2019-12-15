@@ -1,0 +1,92 @@
+/* Basics change with the body*/ 
+
+body{ 
+background-color: #8bbabb;
+color: rgb(30,20,12);
+font-family: hervetica;
+line-height: 1.6;
+font-size: 16px;
+font-weight: lighter;
+font-family: 'Girassol', cursive;
+ }
+ a {
+ 	text-decoration: none;
+ 	color: #8bbabb;
+ }
+ a:hover {
+ 	color: red;
+ }
+ h1 {
+font-size: 35px;
+font-family: 'Anton', sans-serif;
+color: #6c7b95;
+}
+h2 {
+	font-weight: bold;
+	font-size: 22px;
+	color:#ff971d;
+}
+
+/* Custom design with class */
+
+div	{
+	margin: 40px auto;
+	margin-bottom: 2px;
+	padding: 40px;
+	box-shadow: 0px 10px 30px black;
+	border-radius: 4px;
+	background: white;
+	text-align: center;
+	width: 700px;
+}
+
+@media (max-width: 700px) {
+	div {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	div {
+		width: 350px;
+	}
+}	
+
+.img-circle {
+	border-radius: 50%;
+	size: 10px;
+}
+.btn-blue {
+	background-color: #8bbabb; 
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+
+}
+.btn-blue:hover { 
+	background-color: black; 
+	color: #dd2a1e;
+ }
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #8bbabb;
+}
+.list-inline i:hover {
+	
+	color: #dd2a1e;
+}
+
+/* Adjustements using id */ 
+
+#introduction p {
+	margin-bottom: 40px;
+}
